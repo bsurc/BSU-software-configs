@@ -19,4 +19,8 @@ Release notes:
   This may be related to the installer having an older version of intel-oneapi-compilers due to the previous issue above, but this was not investigated. 
 
 
+2023-02-17:
+
+- In preparation for further building out the software/dependency stack to support an intel build of WRF, have factored configs out of the old spack-configs repository and established this repo, basing these further installations on the falcon installation model, which is more refined. This model uses includes for predefined dependencies/specs to be used, loading or mapping packages built from borah-base, borah-libraries, etc. 
+
 
