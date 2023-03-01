@@ -1,0 +1,12 @@
+packages:
+
+  wrf:
+    version:
+    - 4.3.3
+    externals:
+    - spec: wrf@4.3.3%intel@2021.6.0^mpich 
+      prefix: /cm/shared/software/spack/opt/spack/linux-centos7-skylake/intel-2021.6.0/wrf-4.3.3-ewrxphg23rb7u63dvig33d55r6w7igqs
+    - spec: wrf@4.3.3%intel@2021.6.0^openmpi 
+      prefix: /cm/shared/software/spack/opt/spack/linux-centos7-skylake/intel-2021.6.0/wrf-4.3.3-npmx7fpkyrfi3reyucuvslw7dpflof7f
+    buildable: False
+

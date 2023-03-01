@@ -1,0 +1,35 @@
+packages:
+
+  netcdf-c:
+    version:
+    - 4.9.0
+    externals:
+    - spec: netcdf-c@4.9.0%intel~dap~fsync~hdf4~jna+mpi+optimize~parallel-netcdf+pic+shared+zstd ^mpich
+      prefix: /cm/shared/software/spack/opt/spack/linux-centos7-skylake/intel-2021.6.0/netcdf-c-4.9.0-rk4hcpuumy47dvzdrigralm7sotwfnfm
+    - spec: netcdf-c@4.9.0%intel~dap~fsync~hdf4~jna+mpi+optimize~parallel-netcdf+pic+shared+zstd ^openmpi
+      prefix: cm/shared/software/spack/opt/spack/linux-centos7-skylake/intel-2021.6.0/netcdf-c-4.9.0-p6oi2qeunayg5fggxlxatk7u3tgmkp5s
+    buildable: False
+
+  netcdf-fortran:
+    version:
+    - 4.6.0
+    externals:
+    - spec: netcdf-fortran@4.6.0%intel~doc+pic+shared ^mpich
+      prefix: /cm/shared/software/spack/opt/spack/linux-centos7-skylake/intel-2021.6.0/netcdf-fortran-4.6.0-dp5muuq2dpbppiuegl6lw65264q5cd5e
+    - spec: netcdf-fortran@4.6.0%intel~doc+pic+shared ^openmpi
+      prefix: cm/shared/software/spack/opt/spack/linux-centos7-skylake/intel-2021.6.0/netcdf-fortran-4.6.0-ajzq3tj3c2fozscbbuqcvoyjutfqedws
+    buildable: False
+
+  parallel-netcdf:
+    version:
+    - 1.12.3
+    externals:
+    - spec: parallel-netcdf@1.12.3%intel~burstbuffer+cxx+fortran+pic+shared ^mpich
+      prefix: /cm/shared/software/spack/opt/spack/linux-centos7-skylake/intel-2021.6.0/parallel-netcdf-1.12.3-7rebwhggejfzcy7gfscazfso4xxr5uqm
+    - spec: parallel-netcdf@1.12.3%intel~burstbuffer+cxx+fortran+pic+shared ^openmpi 
+      prefix: /cm/shared/software/spack/opt/spack/linux-centos7-skylake/intel-2021.6.0/parallel-netcdf-1.12.3-fljuux5uw2bs6rzr4jtjkrrimpwhwcyg
+    buildable: False
+
+# mpich
+
+# openmpi

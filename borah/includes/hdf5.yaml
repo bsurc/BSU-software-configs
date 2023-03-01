@@ -1,0 +1,12 @@
+packages:
+  hdf5:
+    version: 
+    - 1.12.2
+    externals:
+    - spec: hdf5@1.12.2%intel+cxx+fortran+hl~ipo+java+mpi+shared~szip~threadsafe+tools ^mpich
+      prefix: /cm/shared/software/spack/opt/spack/linux-centos7-skylake/intel-2021.6.0/hdf5-1.12.2-2h4cqmtf4ozirp22mg6o3cpdm52rvgmy
+    - spec: hdf5@1.12.2%intel+cxx+fortran+hl~ipo+java+mpi+shared~szip~threadsafe+tools ^openmpi
+      prefix: /cm/shared/software/spack/opt/spack/linux-centos7-skylake/intel-2021.6.0/hdf5-1.12.2-jfz5hrz43s37lsnvvojirn45zerg575p
+    buildable: False
+
+
